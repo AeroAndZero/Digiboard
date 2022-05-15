@@ -1,0 +1,61 @@
+.auctionContainer{
+    margin: 30px 40px;
+}
+
+.auctionContainer > div{
+    margin: 2px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+.sortBox{
+    display: inline-block;
+    background-color: lightblue;
+    height: 80vh;
+    width: 15%;
+    padding: 2vw;
+}
+
+.sortBox h2{
+    margin-bottom: none;
+}
+
+.result{
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    background-color: #68c7d4;
+    min-height: 250px;
+}
+
+.resultGridAuction{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.auGrid{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    gap: 5px;
+
+    background-color: white;
+    border: 2px solid rgb(15, 15, 15);
+
+    width: 80%;
+    height: 45vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.timer{
+    font-weight: bold;
+    color: rgb(252, 73, 73);
+}
+
+.timer > .countdown{
+    font-size: 1.3em;
+}

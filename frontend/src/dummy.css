@@ -1,0 +1,17 @@
+.dumHeader{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 4em;
+    color: blue;
+}
+
+.dumHr{
+    width: 30vw;
+}
+
+.dumDesc{
+    width: 50vw;
+    margin: 20px auto 250px auto;
+    font-size: 1.5em;
+    text-indent: 10%;
+}

@@ -1,0 +1,87 @@
+.locateContainer{
+    margin: 30px 40px;
+}
+
+.locateContainer > div{
+    margin: 2px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+.sortBox{
+    display: inline-block;
+    background-color: lightblue;
+    height: 80vh;
+    width: 15%;
+    padding: 2vw;
+}
+
+.sortBox h2{
+    margin-bottom: none;
+}
+
+.sortBox input[type=radio]{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.result{
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    background-color: rgb(190, 69, 69);
+    min-height: 250px;
+}
+
+.resultGrid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-content: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.nyGrid{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    gap: 5px;
+
+    width: 13vw;
+    height: 35vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: white;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.nyGrid:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.thumbnail{
+    border-radius: 5px;
+}
+
+.thumbnail > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.info > .name > .area{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.info > .price{
+    text-align: center;
+}
