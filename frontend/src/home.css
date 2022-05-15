@@ -38,6 +38,7 @@
 .banner > .titleButton:hover{
     background-color: #000;
     color: yellow;
+    cursor: pointer;
 }
 
 .nyTitle, .popTitle, .auTitle{
